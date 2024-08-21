@@ -32,7 +32,6 @@ func LoginHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Directly compare the provided password with the stored password
 	if user.PasswordHash != req.Password {
 		http.Error(w, "Invalid username or password", http.StatusUnauthorized)
 		return
@@ -40,13 +39,12 @@ func LoginHandler(w http.ResponseWriter, r *http.Request) {
 
 	// Create the JWT claims with the expiration time
 	claims := jwtutils.JWTClaims{
-		Username: user.Username, // Include the username in the JWT claims
+		Username: user.Username,
 		StandardClaims: jwt.StandardClaims{
-			ExpiresAt: time.Now().Add(time.Hour * 24).Unix(), // Token valid for 24 hours
+			ExpiresAt: time.Now().Add(time.Hour * 24).Unix(),
 		},
 	}
 
-	// Generate the token using jwtutils
 	token, err := jwtutils.GenerateToken(claims)
 	if err != nil {
 		logger.Error("Error generating token:", err)
