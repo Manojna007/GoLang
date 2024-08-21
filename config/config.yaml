@@ -1,0 +1,10 @@
+app_name: "Student Management"
+port: 8080
+log_file: "app.log"
+jwt_secret: "jwt_123"
+db:
+  host: "localhost"
+  port: 1433
+  user: "sa"
+  password: "root"
+  name: "students"

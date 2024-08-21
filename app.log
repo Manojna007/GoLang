@@ -1,0 +1,32 @@
+ERROR: 2024/08/20 10:54:07 logger.go:28: Database ping failed: Error 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+ERROR: 2024/08/20 10:57:45 logger.go:28: Database ping failed: Error 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+ERROR: 2024/08/20 10:59:06 logger.go:28: Database ping failed: Error 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+ERROR: 2024/08/20 11:54:16 logger.go:28: Database ping failed: dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 11:54:35 logger.go:28: Database ping failed: dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 15:55:32 logger.go:28: Database ping failed: dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 15:55:32 logger.go:28: Error initializing database: %v dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 15:55:32 logger.go:28: Starting server on port %d... 8080
+ERROR: 2024/08/20 21:02:08 logger.go:28: Database ping failed: unable to open tcp connection with host 'DESKTOP-FAB4GC5:1433': dial tcp [fe80::a31a:443c:1eaa:a1dc]:1433: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 21:02:08 logger.go:28: Error initializing database: %v unable to open tcp connection with host 'DESKTOP-FAB4GC5:1433': dial tcp [fe80::a31a:443c:1eaa:a1dc]:1433: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 21:02:08 logger.go:28: Starting server on port %d... 8080
+ERROR: 2024/08/20 21:15:21 logger.go:28: Database ping failed: unable to open tcp connection with host 'DESKTOP-FAB4GC5:1433': dial tcp [fe80::a31a:443c:1eaa:a1dc]:1433: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 21:15:21 logger.go:28: Error initializing database: %v unable to open tcp connection with host 'DESKTOP-FAB4GC5:1433': dial tcp [fe80::a31a:443c:1eaa:a1dc]:1433: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 21:15:21 logger.go:28: Starting server on port %d... 8080
+ERROR: 2024/08/20 21:22:12 logger.go:28: Database ping failed: unable to open tcp connection with host 'localhost:1433': dial tcp 127.0.0.1:1433: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 21:22:12 logger.go:28: Error initializing database: %v unable to open tcp connection with host 'localhost:1433': dial tcp 127.0.0.1:1433: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 21:22:12 logger.go:28: Starting server on port %d... 8080
+ERROR: 2024/08/20 21:22:27 logger.go:28: Database ping failed: unable to open tcp connection with host 'localhost:1433': dial tcp 127.0.0.1:1433: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 21:22:27 logger.go:28: Error initializing database: %v unable to open tcp connection with host 'localhost:1433': dial tcp 127.0.0.1:1433: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 21:22:27 logger.go:28: Starting server on port %d... 8080
+ERROR: 2024/08/20 21:35:55 logger.go:28: Database ping failed: unable to open tcp connection with host 'localhost:1433': dial tcp 127.0.0.1:1433: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 21:35:55 logger.go:28: Error initializing database: %v unable to open tcp connection with host 'localhost:1433': dial tcp 127.0.0.1:1433: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 21:35:55 logger.go:28: Starting server on port %d... 8080
+ERROR: 2024/08/20 21:50:44 logger.go:28: Database ping failed: unable to open tcp connection with host 'localhost:1433': dial tcp 127.0.0.1:1433: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 21:50:44 logger.go:28: Error initializing database: %v unable to open tcp connection with host 'localhost:1433': dial tcp 127.0.0.1:1433: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 21:50:44 logger.go:28: Starting server on port %d... 8080
+ERROR: 2024/08/20 22:03:35 logger.go:28: Database ping failed: unable to open tcp connection with host 'localhost:1433': dial tcp 127.0.0.1:1433: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 22:03:35 logger.go:28: Error initializing database: %v unable to open tcp connection with host 'localhost:1433': dial tcp 127.0.0.1:1433: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/20 22:03:35 logger.go:28: Starting server on port %d... 8080
+ERROR: 2024/08/21 10:16:47 logger.go:28: Database ping failed: unable to open tcp connection with host 'localhost:1433': dial tcp [::1]:1433: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/21 10:16:47 logger.go:28: Error initializing database: %v unable to open tcp connection with host 'localhost:1433': dial tcp [::1]:1433: connectex: No connection could be made because the target machine actively refused it.
+ERROR: 2024/08/21 10:16:47 logger.go:28: Starting server on port %d... 8080
